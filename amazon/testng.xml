@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- Testng xml file is used for execution also achiving parallel testing on emulator -->
+
+<suite name="Suite" >
+	
+	 <test name="Test2" >	
+	 <parameter name="deviceName_" value="emulator-5556" />
+	 <parameter name="UDID_" value="emulator-5554" />
+	 <parameter name="platformVersion_" value="9" />
+	 <parameter name="ip_" value="127.0.0.1" />	
+	 <parameter name="port_" value="4723" />	
+		<classes>
+			<class name="com.amazon.executor.TestExecutor" />
+		</classes>
+	 </test>  
+	
+	<!--  <test name="Test2" >	
+	 <parameter name="deviceName_" value="emulator-5554" />
+	 <parameter name="UDID_" value="emulator-5554" />
+	 <parameter name="platformVersion_" value="9" />
+	 <parameter name="ip_" value="127.0.0.8" />	
+	 <parameter name="port_" value="4727" />	
+		<classes>
+			<class name="com.amazon.executor.TestExecutor" />
+		</classes>
+	 </test>   -->
+	
+</suite> <!-- Suite -->

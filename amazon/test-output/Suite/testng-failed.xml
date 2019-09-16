@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="port_" value="4727"/>
+  <parameter name="platformVersion_" value="9"/>
+  <parameter name="UDID_" value="emulator-5554"/>
+  <parameter name="ip_" value="127.0.0.8"/>
+  <parameter name="deviceName_" value="emulator-5556"/>
+  <test name="Test2(failed)">
+    <parameter name="port_" value="4727"/>
+    <parameter name="platformVersion_" value="9"/>
+    <parameter name="UDID_" value="emulator-5554"/>
+    <parameter name="ip_" value="127.0.0.8"/>
+    <parameter name="deviceName_" value="emulator-5556"/>
+    <classes>
+      <class name="com.amazon.executor.TestExecutor">
+        <methods>
+          <include name="launchAppiumServer"/>
+          <include name="testLandingPAndShopByCatgoryage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.executor.TestExecutor -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

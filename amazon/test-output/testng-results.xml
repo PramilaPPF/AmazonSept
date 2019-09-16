@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Hamburger button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[Webelements for Shop by category page initiated successfully]]>
+    </line>
+    <line>
+      <![CDATA[ShopByCategory selected]]>
+    </line>
+    <line>
+      <![CDATA[electronics selected]]>
+    </line>
+    <line>
+      <![CDATA[kindle selected]]>
+    </line>
+    <line>
+      <![CDATA[Kindle E-Readers element is verfied]]>
+    </line>
+    <line>
+      <![CDATA[Kindle E-Readers element is verification done]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43522" started-at="2019-09-16T14:59:32Z" finished-at="2019-09-16T15:00:16Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="43522" started-at="2019-09-16T14:59:32Z" finished-at="2019-09-16T15:00:16Z">
+      <class name="com.amazon.executor.TestExecutor">
+        <test-method status="PASS" signature="launchAppiumServer()[pri:0, instance:com.amazon.executor.TestExecutor@553f17c]" name="launchAppiumServer" is-config="true" duration-ms="7316" started-at="2019-09-16T20:29:25Z" finished-at="2019-09-16T20:29:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAppiumServer -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.amazon.executor.TestExecutor@553f17c]" name="setup" is-config="true" duration-ms="21456" started-at="2019-09-16T20:29:32Z" finished-at="2019-09-16T20:29:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLandingPAndShopByCatgoryage()[pri:0, instance:com.amazon.executor.TestExecutor@553f17c]" name="testLandingPAndShopByCatgoryage" duration-ms="19564" started-at="2019-09-16T20:29:54Z" finished-at="2019-09-16T20:30:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hamburger button Clicked]]>
+            </line>
+            <line>
+              <![CDATA[Webelements for Shop by category page initiated successfully]]>
+            </line>
+            <line>
+              <![CDATA[ShopByCategory selected]]>
+            </line>
+            <line>
+              <![CDATA[electronics selected]]>
+            </line>
+            <line>
+              <![CDATA[kindle selected]]>
+            </line>
+            <line>
+              <![CDATA[Kindle E-Readers element is verfied]]>
+            </line>
+            <line>
+              <![CDATA[Kindle E-Readers element is verification done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLandingPAndShopByCatgoryage -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.amazon.executor.TestExecutor@553f17c]" name="quitDriver" is-config="true" duration-ms="2484" started-at="2019-09-16T20:30:13Z" finished-at="2019-09-16T20:30:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.executor.TestExecutor@553f17c]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-16T20:30:16Z" finished-at="2019-09-16T20:30:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.executor.TestExecutor -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
